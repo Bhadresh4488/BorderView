@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0481E2906915265E6CE94804D52A0178 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E7D367538BAAEB75A67767D4FF4579 /* ReplaceMe.swift */; };
 		625352F4E65FD3265AC94D99B5D21691 /* BorderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D59DC5BE9611C11C0B5E9A7B5C5672 /* BorderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		761E50ADA60C616C5B51301A86C4EFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7EEC3DEFCD1DA6BA1A32FB24C066AA9A /* Pods-BorderView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B32DCA53DB0E6F0067DA0C801C825 /* Pods-BorderView_Tests-dummy.m */; };
 		863E704506EE2D8A0208358695F0D89D /* Pods-BorderView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEF3ED4E52F1142A81B49EC955457A5 /* Pods-BorderView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CCB5589C908ECE8CAF982DD98DAFE3C /* BorderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EA277622938E58CF938222FC22D03B /* BorderView-dummy.m */; };
 		96050C78AB6C43B1BA9F6500328FA95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D78498EE20C549E700AF81CF /* UIView+CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78498ED20C549E700AF81CF /* UIView+CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,28 +29,28 @@
 /* Begin PBXFileReference section */
 		008B32DCA53DB0E6F0067DA0C801C825 /* Pods-BorderView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BorderView_Tests-dummy.m"; sourceTree = "<group>"; };
 		09EC21DF8B840C00EF03DFE5A1A34D83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14D4A7483C451F11B0B17117AD44539D /* Pods_BorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BorderView_Tests.framework; path = "Pods-BorderView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D4A7483C451F11B0B17117AD44539D /* Pods_BorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6C7A30C89ED1A229ACFAC927986484 /* Pods-BorderView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BorderView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		35528C62D3F1A85BB860069CC8360900 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		35528C62D3F1A85BB860069CC8360900 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4474BB8149ECF337ADEE09A46DAD91A5 /* Pods-BorderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46D59DC5BE9611C11C0B5E9A7B5C5672 /* BorderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BorderView-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66B552FE2CC307D69479DFBCFEB017D1 /* Pods-BorderView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BorderView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6835E4DE87553B657F19D2A2CFD3BAA4 /* BorderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BorderView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		74E7D367538BAAEB75A67767D4FF4579 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BorderView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		75A34BFA1631C899F90C4FC2757A2EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6835E4DE87553B657F19D2A2CFD3BAA4 /* BorderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BorderView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75A34BFA1631C899F90C4FC2757A2EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7748C182F9AD29F99990FB6234E4EB64 /* Pods-BorderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BorderView_Tests.modulemap"; sourceTree = "<group>"; };
 		8FEF3ED4E52F1142A81B49EC955457A5 /* Pods-BorderView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BorderView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F037A9903B81CBAA783810D11C213E /* Pods-BorderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		97EA277622938E58CF938222FC22D03B /* BorderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BorderView-dummy.m"; sourceTree = "<group>"; };
 		9F98AFBCA84AC3F65179E5D57EFE31D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD9142030879CD76F7301988CCA0A25 /* BorderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BorderView.modulemap; sourceTree = "<group>"; };
 		AC07A2D39D3987470EA4B1CAA4B835FE /* Pods-BorderView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BorderView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB64CBF37508A4286B0C020FE7ED25BD /* BorderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BorderView.xcconfig; sourceTree = "<group>"; };
+		D78498ED20C549E700AF81CF /* UIView+CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+CustomView.swift"; path = "BorderView/Classes/UIView+CustomView.swift"; sourceTree = "<group>"; };
 		D85813B8CE78DFC60E81C1E63835823E /* BorderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BorderView-prefix.pch"; sourceTree = "<group>"; };
 		E3BDC7DA9D5DFB8D0DDBC835CBF3504B /* Pods-BorderView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BorderView_Tests-resources.sh"; sourceTree = "<group>"; };
-		FC313137F7CBA6D08E12C6D173C6658A /* BorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BorderView.framework; path = BorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC313137F7CBA6D08E12C6D173C6658A /* BorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 		ED7EAE40719C859B956300ABF9C96C3C /* BorderView */ = {
 			isa = PBXGroup;
 			children = (
-				74E7D367538BAAEB75A67767D4FF4579 /* ReplaceMe.swift */,
+				D78498ED20C549E700AF81CF /* UIView+CustomView.swift */,
 				8FAF6F004C0D98732B127D4F1DF497C6 /* Pod */,
 				73D2CC49C70D15C42BC3A45AE3E12CD8 /* Support Files */,
 			);
@@ -243,6 +243,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					CD6820357B57686E30DE9D5E1B3A5665 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78498EE20C549E700AF81CF /* UIView+CustomView.swift in Sources */,
 				8CCB5589C908ECE8CAF982DD98DAFE3C /* BorderView-dummy.m in Sources */,
-				0481E2906915265E6CE94804D52A0178 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB64CBF37508A4286B0C020FE7ED25BD /* BorderView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB64CBF37508A4286B0C020FE7ED25BD /* BorderView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
