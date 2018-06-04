@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BorderView_Tests' do
+  pod 'BorderView', :path => '../'
+  
+  
+end
