@@ -16,10 +16,10 @@
 		607FACE51AFB9204008FA782 /* BorderView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		B3F6FF2B6F13988C11E62C5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3F6FF2B6F13988C11E62C5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6004B383C6D762417D21380 /* Pods-BorderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorderView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorderView_Tests/Pods-BorderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D27B6B96D89D739CAEA75112 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EF21F65B2695439E17D82611 /* BorderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BorderView.podspec; path = ../BorderView.podspec; sourceTree = "<group>"; };
+		D27B6B96D89D739CAEA75112 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF21F65B2695439E17D82611 /* BorderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BorderView.podspec; path = ../BorderView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F17E695E0AD51CD79957CDDB /* Pods-BorderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorderView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorderView_Tests/Pods-BorderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
